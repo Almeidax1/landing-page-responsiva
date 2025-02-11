@@ -249,8 +249,8 @@ section.portifolio .flex{
     margin-top: 80px;
 }
 .img-port{
-    width: 1280px;
-    height: 768px;
+    width: 480px;
+    height: 360px;
     background-color: #6495ED ;
     background-size: cover;
     background-position: 100% 0%;
@@ -349,7 +349,7 @@ footer .line-footer p a{
     }
     .img-port{
         width: 100%;
-        max-width: 480px;
+        max-width: 360px;
         margin: 0 auto;
     }
     section.portifolio .flex{
