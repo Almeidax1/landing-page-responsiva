@@ -41,6 +41,8 @@ button:hover{
     transform: scale(1.05)
 }
 
+
+
 /* Estilo do cabeçalho*/
 
 header{
@@ -239,6 +241,8 @@ section.sobre .flex{
     margin: 0 3px;
     transition: 0.5s;
 }
+
+
 /* ESTILO PORTIFOLIO*/
 section.portifolio{
     padding: 80px 4%;
@@ -247,7 +251,9 @@ section.portifolio{
 section.portifolio .flex{
     justify-content: space-around;
     margin-top: 80px;
+    
 }
+
 .img-port{
     width: 360px;
     height: 360px;
@@ -315,14 +321,17 @@ footer .line-footer p a{
     .flex{
         flex-direction: column ;
     }
-    .topo-do-site.flex{
-        flex-direction: column-reverse;
-    }
+   
     /*Cabeçalho*/
     .menu-desktop,.btn-contato{
         display: none;
     }
     /*Topo do Site*/
+
+    section.topo-do-site .flex{
+        gap: 40px;
+        
+    }
     section.topo-do-site{
         padding: 20px 8%;
     }
@@ -345,25 +354,17 @@ footer .line-footer p a{
     /*PORTIFOLIO*/
     
     section.portifolio{
-        padding: 80px 8%;
+        padding: 80px 4%;
     }
     .img-port{
         width: 100%;
-        max-width: 480px;
+        max-width: 360px;
         margin: 0 auto;
-    }
-    section.portifolio .flex{
-        gap: 60px;
-    }
-    /*roda pé*/
-
-    footer .flex{
-        justify-content: space-between;
-    }
-
-    footer .line-footer{
-        text-align: center;
-    }
+        }
+        section.portifolio .flex{
+            gap: 60px;
+        }
+        
 }
 
 
