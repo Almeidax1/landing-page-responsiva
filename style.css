@@ -6,12 +6,8 @@
     font-family: "Varela Round", serif;
 }
 body{
-    background-image: url(Imagem/Fundo\ bg.jpg);
+    background-color: #1C1C1C;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
 }
 .flex{
     display: flex;
